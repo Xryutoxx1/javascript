@@ -1,0 +1,13 @@
+function makeNegative(num) {
+    let neg = 0;
+  if(num < 0 ){
+    neg = num;
+  } 
+  else{
+    neg = -num;
+  }
+
+  return neg
+}
+
+console.log(makeNegative(5))
